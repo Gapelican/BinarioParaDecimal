@@ -9,10 +9,7 @@ function binaryToDecimal() {
         decimal += parseInt(bin[index]) * Math.pow(2, bin.length - 1 - index)
     }
 
-        
-    document.querySelector(".resultado").innerHTML =  decimal;
-  
-    
+    document.querySelector(".resultado").innerHTML =  decimal;    
 }
 
 function verification() {
